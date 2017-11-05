@@ -29,7 +29,7 @@ namespace WebApplication4.Models
             {
                 db.Addresses.Add(address);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("List");
             }
             return View(address);
         }

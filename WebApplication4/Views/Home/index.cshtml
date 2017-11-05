@@ -3,12 +3,15 @@
     ViewBag.Title = "index";
 }
 
-<h1>Home</h1>
+<h1>Change Address Webpage</h1>
 
-<d>
-    @Html.ActionLink("Change Address Form", "Add");
-</d>
+<p>
+    This is the "official" website of changing your address for the "DMV".
+</p>
 
-<d>
-    @Html.ActionLink("View Pending Forms", "List");
-</d>
+<h3>Links</h3>
+
+<ul>
+    <li>@Html.ActionLink("Change Address Form", "Add")</li>
+    <li>@Html.ActionLink("View Pending Forms", "List")</li>
+</ul>
